@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iconid</key>
+	<string>31941F2F-83DA-430E-B521-73C33F3D502C</string>
+	<key>iconisuserspecified</key>
+	<true/>
+	<key>items</key>
+	<array>
+		<dict/>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>url</key>
+				<string>https://twitter.com</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.openurl</string>
+			<key>buttoniconid</key>
+			<string>1BF2A101-96B9-4A18-A663-ADA8BDF5736C</string>
+			<key>buttonlabel</key>
+			<string></string>
+			<key>itemuid</key>
+			<string>16034A1B-2072-42C0-BCED-BB190A0E164E</string>
+		</dict>
+		<dict/>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>url</key>
+				<string>https://www.youtube.com</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.openurl</string>
+			<key>buttoniconid</key>
+			<string>8DB84E28-DEE1-4F22-BC99-E1A9E0CF0949</string>
+			<key>buttonlabel</key>
+			<string></string>
+			<key>itemuid</key>
+			<string>A88CFA4C-3DE6-48B2-A994-7D31C02A16E1</string>
+		</dict>
+		<dict/>
+		<dict/>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>url</key>
+				<string>https://www.alfredapp.com</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.openurl</string>
+			<key>buttoniconid</key>
+			<string>F481229D-1062-4184-BE6A-A90B094B11E5</string>
+			<key>buttonlabel</key>
+			<string></string>
+			<key>itemuid</key>
+			<string>177E6153-1FB2-4535-9F56-BD6FC3B92A32</string>
+		</dict>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>url</key>
+				<string>https://www.alfredapp.com/help/</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.openurl</string>
+			<key>buttoniconid</key>
+			<string>584DE093-35A9-438D-8614-AB22DF3FFC42</string>
+			<key>buttonlabel</key>
+			<string>Alfred Support</string>
+			<key>itemuid</key>
+			<string>15CB7F56-343E-4FAE-A131-B5D989691DF7</string>
+		</dict>
+		<dict/>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>resultsubtitle</key>
+				<string>Look for help on '{query}'</string>
+				<key>resulttitle</key>
+				<string>Search Alfred Help</string>
+				<key>spaces</key>
+				<string>+</string>
+				<key>url</key>
+				<string>https://www.alfredapp.com/search/?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.openurl</string>
+			<key>buttoniconid</key>
+			<string>B0D73888-63E6-4C88-95D1-40E714EE50BC</string>
+			<key>buttonlabel</key>
+			<string>Search Help</string>
+			<key>itemuid</key>
+			<string>16662643-7F80-47BF-81E2-CC0C89A823D9</string>
+		</dict>
+		<dict/>
+	</array>
+	<key>subtitle</key>
+	<string>URLs and Custom Searches</string>
+	<key>title</key>
+	<string>Bookmarks</string>
+</dict>
+</plist>
