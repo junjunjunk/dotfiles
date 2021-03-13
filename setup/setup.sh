@@ -27,10 +27,10 @@ brew install zsh
 brew install zsh-completions
 
 # Switch to using brew-installed bash as default shell
-if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
-  echo "${BREW_PREFIX}/bin/zsh" | sudo tee -a /etc/shells;
-  chsh -s "${BREW_PREFIX}/bin/zsh";
-fi;
+# if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
+#   echo "${BREW_PREFIX}/bin/zsh" | sudo tee -a /etc/shells;
+#   chsh -s "${BREW_PREFIX}/bin/zsh";
+# fi;
 
 # Install `wget` with IRI support.
 brew install wget 

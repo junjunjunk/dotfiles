@@ -41,7 +41,7 @@ setopt HIST_IGNORE_ALL_DUPS
 function cd_ghq_list() {
   local destination_dir="$(ghq list | fzf)"
   if [ -n "$destination_dir" ]; then
-    BUFFER="cd $destination_dir"
+    BUFFER="cd $(ghq root)/$destination_dir"
     zle accept-line
   fi
   zle clear-screen
@@ -73,8 +73,10 @@ setopt PROMPT_SUBST
 export PS1='%K{033}%F{231} %~ %f%k%F{033}%f%F{red}$(__git_ps1 "(%s)")%f\$ '
 export FZF_DEFAULT_OPTS="--height 50% --layout=reverse --border --inline-info --preview 'head -100 {}'"
 
-
 ## [PATH]
+alias arm="exec arch -arch arm64e /bin/zsh --login"
+alias x64="exec arch -arch x86_64 /bin/zsh --login"
 
-# pyenv
+typeset -U path PATH
+
 eval "$(pyenv init -)"
