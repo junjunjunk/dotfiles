@@ -40,8 +40,9 @@ setopt HIST_IGNORE_ALL_DUPS
 # ^g : cd xxx from ghq_list 
 function cd_ghq_list() {
   local destination_dir="$(ghq list | fzf)"
+  local ghq_dir="$(ghq root)"
   if [ -n "$destination_dir" ]; then
-    BUFFER="cd $(ghq root)/$destination_dir"
+    BUFFER="cd $ghq_dir/$destination_dir"
     zle accept-line
   fi
   zle clear-screen
