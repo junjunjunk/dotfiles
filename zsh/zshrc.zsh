@@ -71,7 +71,8 @@ source $HOME/.dotfiles/zsh/git_prompt.zsh
 
 ## [EXPORT]
 setopt PROMPT_SUBST
-export PS1='%K{033}%F{231} %~ %f%k%F{033}%f%F{red}$(__git_ps1 "(%s)")%f\$ '
+export PS1='%K{033}%F{231} %~ %f%k%F{033}%f%F{red}$(__git_ps1 "(%s)")%f\$ 
+'
 export FZF_DEFAULT_OPTS="--height 50% --layout=reverse --border --inline-info --preview 'head -100 {}'"
 
 ## [PATH]
