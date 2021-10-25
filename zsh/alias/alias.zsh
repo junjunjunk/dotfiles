@@ -54,3 +54,6 @@ alias cof="!git branch -a | fzf | xargs git checkout"
 # open repository managed by ghq by vscode
 # NEED: ghq / fzf
 alias cg='code "`ghq root`/`ghq list | fzf`"'
+
+# kubernetes
+alias k="kubectl"
