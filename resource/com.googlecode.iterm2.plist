@@ -604,8 +604,10 @@
 	</array>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
+	<key>OpenBookmark</key>
+	<false/>
 	<key>OpenNoWindowsAtStartup</key>
-	<true/>
+	<false/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SoundForEsc</key>
