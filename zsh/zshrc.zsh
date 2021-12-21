@@ -63,10 +63,10 @@ bindkey '^h' select_history_by_fzf
 ## [READ EXTERNAL FILE]
 
 # alias
-source $HOME/.dotfiles/zsh/alias/alias.zsh
+source $HOME/dotfiles/zsh/alias/alias.zsh
 
 # git-prompt
-source $HOME/.dotfiles/zsh/git_prompt.zsh
+source $HOME/dotfiles/zsh/git_prompt.zsh
 
 
 ## [EXPORT]

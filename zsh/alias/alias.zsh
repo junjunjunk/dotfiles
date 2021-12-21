@@ -1,7 +1,7 @@
 #!/usr/bin/zsh
 
 # include functions
-source $HOME/.dotfiles/zsh/alias/function.zsh
+source $HOME/dotfiles/zsh/alias/function.zsh
 
 # Directory operations
 alias ..="cd .."

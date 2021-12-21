@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Note: please install brew manually
 # Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.
