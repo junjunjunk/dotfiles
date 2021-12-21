@@ -81,4 +81,5 @@ alias x64="exec arch -arch x86_64 /bin/zsh --login"
 
 typeset -U path PATH
 
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
